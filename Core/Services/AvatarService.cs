@@ -1,0 +1,1 @@
+using System.Drawing;using System.IO;using System.Windows.Forms;namespace AshkanSocial.Core.Services{public static class AvatarService{public static void Load(PictureBox target,string path){if(target==null||string.IsNullOrWhiteSpace(path)||!File.Exists(path))return;try{using(var image=Image.FromFile(path))target.Image=new Bitmap(image);}catch{}}}}

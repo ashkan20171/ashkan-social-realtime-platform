@@ -1,0 +1,1 @@
+namespace AshkanSocial.Core.Services{public static class RealtimeClientFactory{public static IRealtimeClient Create(RealtimeSettings settings){var real=new SignalRRealtimeClient(settings);if(settings!=null&&settings.Enabled&&real.ClientPackageAvailable)return real;real.Dispose();return new LocalRealtimeClient();}}}

@@ -1,0 +1,1 @@
+using System;namespace AshkanSocial.Core.Services{public sealed class RealtimeSettings{public bool Enabled{get;set;}=false;public string HubUrl{get;set;}="http://localhost:5088/hubs/social";public DateTime LastConnectionAttempt{get;set;}=DateTime.MinValue;}public enum RealtimeConnectionState{Disabled,Disconnected,Connecting,Connected,Reconnecting}}

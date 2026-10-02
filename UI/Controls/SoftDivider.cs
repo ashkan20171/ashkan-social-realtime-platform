@@ -1,0 +1,1 @@
+using System.Drawing;using System.Windows.Forms;using AshkanSocial.UI.Theme;namespace AshkanSocial.UI.Controls{public sealed class SoftDivider:Panel{public SoftDivider(){Height=1;BackColor=ThemeColors.BorderColor;Margin=new Padding(0,8,0,8);}}}

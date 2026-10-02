@@ -1,0 +1,1 @@
+using System.Drawing;using System.Windows.Forms;using AshkanSocial.UI.Theme;namespace AshkanSocial.UI.Controls{public sealed class StatusPill:Label{public StatusPill(){AutoSize=false;Size=new Size(112,28);TextAlign=ContentAlignment.MiddleCenter;BackColor=ThemeColors.SurfaceHover;ForeColor=ThemeColors.Primary;Font=new Font("Segoe UI Semibold",8.5F);Text="● Ready";}}}
